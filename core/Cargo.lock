@@ -3065,7 +3065,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ef5da6e9a6ae89f4a91f80ba1caae45a5a924397a19947e18f5121a43285e9bc"
 dependencies = [
  "http 1.4.2",
- "prost 0.14.3",
+ "prost 0.14.4",
  "tokio",
  "tokio-stream",
  "tonic 0.14.5",
@@ -3926,7 +3926,7 @@ version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cbd3abb5dcc950e27a8aef9db4a8d966f4df906eee12d186e4064e418ba0038e"
 dependencies = [
- "prost 0.14.3",
+ "prost 0.14.4",
 ]
 
 [[package]]
@@ -4208,7 +4208,7 @@ dependencies = [
  "md-5 0.11.0",
  "num-traits",
  "once_cell",
- "prost 0.14.3",
+ "prost 0.14.4",
  "prost-types 0.14.3",
  "rand 0.10.1",
  "regex",
@@ -4452,18 +4452,18 @@ dependencies = [
 
 [[package]]
 name = "hotpath"
-version = "0.21.1"
+version = "0.21.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1ff6b552a6afa29d9e33f8d555bee9093c142dd449501ae128e6494a303f03dc"
+checksum = "0772e97af6db4889a5894b3eddb7d6b8a75819fdf03fe89a07185ce651c66c85"
 dependencies = [
  "hotpath-macros",
 ]
 
 [[package]]
 name = "hotpath-macros"
-version = "0.21.1"
+version = "0.21.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4f15322569d3cfadf84c0de7ef72be435b8f4b4839ee4ace78a7eaca48a87ded"
+checksum = "be1a3963a08af931247e0a560a8afd922d4a9f34b97be61306d286953e56fb96"
 
 [[package]]
 name = "html5ever"
@@ -6476,7 +6476,7 @@ dependencies = [
  "mea",
  "percent-encoding",
  "pretty_assertions",
- "quick-xml 0.41.0",
+ "quick-xml",
  "rand 0.10.1",
  "reqsign-core",
  "serde",
@@ -6838,7 +6838,7 @@ dependencies = [
  "opendal-core",
  "opendal-service-azure-common",
  "pretty_assertions",
- "quick-xml 0.41.0",
+ "quick-xml",
  "reqsign-azure-storage",
  "reqsign-core",
  "reqsign-file-read-tokio",
@@ -6860,7 +6860,7 @@ dependencies = [
  "mea",
  "opendal-core",
  "opendal-service-azure-common",
- "quick-xml 0.41.0",
+ "quick-xml",
  "reqsign-azure-storage",
  "reqsign-core",
  "reqsign-file-read-tokio",
@@ -6878,7 +6878,7 @@ dependencies = [
  "log",
  "opendal-core",
  "opendal-service-azure-common",
- "quick-xml 0.41.0",
+ "quick-xml",
  "reqsign-azure-storage",
  "reqsign-core",
  "reqsign-file-read-tokio",
@@ -6949,7 +6949,7 @@ dependencies = [
  "http 1.4.2",
  "log",
  "opendal-core",
- "quick-xml 0.41.0",
+ "quick-xml",
  "reqsign-core",
  "reqsign-file-read-tokio",
  "reqsign-tencent-cos",
@@ -7082,7 +7082,7 @@ dependencies = [
  "log",
  "opendal-core",
  "percent-encoding",
- "quick-xml 0.41.0",
+ "quick-xml",
  "reqsign-core",
  "reqsign-file-read-tokio",
  "reqsign-google",
@@ -7115,7 +7115,7 @@ dependencies = [
  "log",
  "opendal-core",
  "opendal-service-azblob",
- "prost 0.14.3",
+ "prost 0.14.4",
  "reqsign-azure-storage",
  "reqsign-core",
  "serde",
@@ -7225,7 +7225,7 @@ dependencies = [
  "http 1.4.2",
  "log",
  "opendal-core",
- "prost 0.14.3",
+ "prost 0.14.4",
  "serde",
  "tokio",
 ]
@@ -7346,7 +7346,7 @@ dependencies = [
  "http 1.4.2",
  "log",
  "opendal-core",
- "quick-xml 0.41.0",
+ "quick-xml",
  "reqsign-core",
  "reqsign-file-read-tokio",
  "reqsign-huaweicloud-obs",
@@ -7391,7 +7391,7 @@ dependencies = [
  "log",
  "opendal-core",
  "pretty_assertions",
- "quick-xml 0.41.0",
+ "quick-xml",
  "reqsign-aliyun-oss",
  "reqsign-core",
  "reqsign-file-read-tokio",
@@ -7478,7 +7478,7 @@ dependencies = [
  "md-5 0.11.0",
  "opendal-core",
  "pretty_assertions",
- "quick-xml 0.41.0",
+ "quick-xml",
  "reqsign-aws-v4",
  "reqsign-core",
  "reqsign-file-read-tokio",
@@ -7561,7 +7561,7 @@ dependencies = [
  "log",
  "opendal-core",
  "percent-encoding",
- "quick-xml 0.41.0",
+ "quick-xml",
  "serde",
  "serde_json",
  "sha1 0.11.0",
@@ -7588,7 +7588,7 @@ dependencies = [
  "bytes",
  "http 1.4.2",
  "opendal-core",
- "quick-xml 0.41.0",
+ "quick-xml",
  "reqsign-core",
  "reqsign-file-read-tokio",
  "reqsign-volcengine-tos",
@@ -7607,7 +7607,7 @@ dependencies = [
  "log",
  "md-5 0.11.0",
  "opendal-core",
- "quick-xml 0.41.0",
+ "quick-xml",
  "serde",
  "serde_json",
  "sha1 0.11.0",
@@ -7636,7 +7636,7 @@ dependencies = [
  "http 1.4.2",
  "log",
  "opendal-core",
- "quick-xml 0.41.0",
+ "quick-xml",
  "serde",
  "serde_json",
  "tokio",
@@ -7652,7 +7652,7 @@ dependencies = [
  "log",
  "mea",
  "opendal-core",
- "quick-xml 0.41.0",
+ "quick-xml",
  "serde",
  "tokio",
 ]
@@ -7681,7 +7681,7 @@ dependencies = [
  "http 1.4.2",
  "log",
  "opendal-core",
- "quick-xml 0.41.0",
+ "quick-xml",
  "serde",
  "serde_json",
  "tokio",
@@ -7868,7 +7868,7 @@ dependencies = [
  "opentelemetry",
  "opentelemetry-proto",
  "opentelemetry_sdk",
- "prost 0.14.3",
+ "prost 0.14.4",
  "thiserror 2.0.18",
  "tokio",
  "tonic 0.14.5",
@@ -7883,7 +7883,7 @@ checksum = "56d658ba1faf63f7b9c492cfbe6e0ec365440a16132d3270c1065f7b33f1b638"
 dependencies = [
  "opentelemetry",
  "opentelemetry_sdk",
- "prost 0.14.3",
+ "prost 0.14.4",
  "tonic 0.14.5",
  "tonic-prost",
 ]
@@ -8615,12 +8615,12 @@ dependencies = [
 
 [[package]]
 name = "prost"
-version = "0.14.3"
+version = "0.14.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d2ea70524a2f82d518bce41317d0fae74151505651af45faf1ffbd6fd33f0568"
+checksum = "528ac67416ff8646872a3c02cad9cc4ee5dc9f9540c9b10771855c95cb2e5ae1"
 dependencies = [
  "bytes",
- "prost-derive 0.14.3",
+ "prost-derive 0.14.4",
 ]
 
 [[package]]
@@ -8655,7 +8655,7 @@ dependencies = [
  "multimap",
  "petgraph 0.8.3",
  "prettyplease",
- "prost 0.14.3",
+ "prost 0.14.4",
  "prost-types 0.14.3",
  "pulldown-cmark 0.13.3",
  "pulldown-cmark-to-cmark",
@@ -8692,9 +8692,9 @@ dependencies = [
 
 [[package]]
 name = "prost-derive"
-version = "0.14.3"
+version = "0.14.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "27c6023962132f4b30eb4c172c91ce92d933da334c59c23cddee82358ddafb0b"
+checksum = "b570b25f7617e43d59005d0990ccb79e950a423952cea19671b7a876da390adf"
 dependencies = [
  "anyhow",
  "itertools 0.14.0",
@@ -8718,7 +8718,7 @@ version = "0.14.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8991c4cbdb8bc5b11f0b074ffe286c30e523de90fee5ba8132f1399f23cb3dd7"
 dependencies = [
- "prost 0.14.3",
+ "prost 0.14.4",
 ]
 
 [[package]]
@@ -8811,16 +8811,6 @@ dependencies = [
  "wasi 0.11.1+wasi-snapshot-preview1",
  "web-sys",
  "winapi",
-]
-
-[[package]]
-name = "quick-xml"
-version = "0.40.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2474bd2e5029e7ccb6abb2ba48cf2383a333851dedf495901544281590c7da7f"
-dependencies = [
- "memchr",
- "serde",
 ]
 
 [[package]]
@@ -9255,9 +9245,9 @@ dependencies = [
 
 [[package]]
 name = "reqsign-aliyun-oss"
-version = "3.1.0"
+version = "3.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "372266b4733756738eeb199a98188037d27a0989980e2600ae7ce1faf00a867d"
+checksum = "9f2a76ce7588780351c0f68eb8feaba8d23a99b40655195edbf50bfbce2af09b"
 dependencies = [
  "anyhow",
  "form_urlencoded",
@@ -9272,9 +9262,9 @@ dependencies = [
 
 [[package]]
 name = "reqsign-aws-v4"
-version = "3.0.1"
+version = "3.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b75624bd8a466e37ddc0a7b6c33ac859a85347c153a916e1dd9d0b68338f74a"
+checksum = "4e9e1168fab3883ec6afed1c2e20c25b2a09f366cdb662ac3e0878ae0332d63e"
 dependencies = [
  "anyhow",
  "bytes",
@@ -9283,7 +9273,7 @@ dependencies = [
  "http 1.4.2",
  "log",
  "percent-encoding",
- "quick-xml 0.40.1",
+ "quick-xml",
  "reqsign-core",
  "rust-ini",
  "serde",
@@ -9294,9 +9284,9 @@ dependencies = [
 
 [[package]]
 name = "reqsign-azure-storage"
-version = "3.0.1"
+version = "3.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "62b96928e73ad984de1d99e382749d09e5dab7dd707b767974f7e40aa926b82f"
+checksum = "dee8b9e5d0fc927551a6ac25ba5dc6518860c54ddb592fecf685523e528e77bd"
 dependencies = [
  "anyhow",
  "base64 0.22.1",
@@ -9315,9 +9305,9 @@ dependencies = [
 
 [[package]]
 name = "reqsign-core"
-version = "3.0.1"
+version = "3.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a5fa5cb48808693614d1701fcd3db0b30fa292e0f18e122ae068b6d32eaeed3f"
+checksum = "514a1e0b4aa288652a3fdbda4f0a610f379cdf5374e55a37c9edd03d57ed856b"
 dependencies = [
  "anyhow",
  "base64 0.22.1",
@@ -9340,9 +9330,9 @@ dependencies = [
 
 [[package]]
 name = "reqsign-file-read-tokio"
-version = "3.0.1"
+version = "3.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6a4b6f3a3fd29ffcc99a90aec585a65217783badfd73acddf847b63ae683bda9"
+checksum = "2b472a8d1f2e5a4be8ce13bb7bdf4b59e9bee613ce124aca23959ddb42176b39"
 dependencies = [
  "anyhow",
  "reqsign-core",
@@ -9351,9 +9341,9 @@ dependencies = [
 
 [[package]]
 name = "reqsign-google"
-version = "3.0.1"
+version = "3.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eb215d0876a18b6bd9cdd380b589e5292aaa638ca15266de794b1122d898b6b2"
+checksum = "296b34f3b0b312a447e8eb7c9b21f12944b25578c84ffa105eb8d5bd10828212"
 dependencies = [
  "form_urlencoded",
  "http 1.4.2",
@@ -9369,9 +9359,9 @@ dependencies = [
 
 [[package]]
 name = "reqsign-huaweicloud-obs"
-version = "3.0.1"
+version = "3.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e1136b31eb7202016d8bbb9445bc3e9ee81e7040736f0dae749a8b2b31d738c9"
+checksum = "a013a1a6711baf24fdc5d15e78611001c068cf305351d0d68f32067f40eec7f6"
 dependencies = [
  "anyhow",
  "http 1.4.2",
@@ -9382,9 +9372,9 @@ dependencies = [
 
 [[package]]
 name = "reqsign-tencent-cos"
-version = "3.0.1"
+version = "3.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "84110aabba799fbcd48b3abb51fbbff4749f879252e5806b6f5d0cbe0fef6abb"
+checksum = "0f5c353c69bdbd6e3deb8b067a5547504cc155b7f024998fef005e37d65d646c"
 dependencies = [
  "anyhow",
  "http 1.4.2",
@@ -9397,9 +9387,9 @@ dependencies = [
 
 [[package]]
 name = "reqsign-volcengine-tos"
-version = "3.0.1"
+version = "3.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "91d083a363b3577f519ce8425bb50f902622a28a83f7c4a26a5c990b66ec75b3"
+checksum = "a99454bd3821c772965d1439bb1dc9bcd8448f74f821890d061c311abd0e5756"
 dependencies = [
  "anyhow",
  "http 1.4.2",
@@ -10869,9 +10859,9 @@ dependencies = [
 
 [[package]]
 name = "surrealdb"
-version = "3.2.0"
+version = "3.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "74c21f360e9c3705555e5894271e4db622cf055d0faad4169f1ef52d08958705"
+checksum = "64a60cb22bf9d0c74d1125ead5d9559d09e64ec09b6f1a181082b4b369b47dbe"
 dependencies = [
  "anyhow",
  "async-channel 2.5.0",
@@ -10907,9 +10897,9 @@ dependencies = [
 
 [[package]]
 name = "surrealdb-collections"
-version = "3.2.0"
+version = "3.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fe5b7ce7c31b54e9b8029179c395f78549679beecd48763fa55bc17059d8b3ff"
+checksum = "30ad075ecc0f9e980872e80158c6789cb69803da4a1e5c333350ae36d959da00"
 dependencies = [
  "revision",
  "storekey",
@@ -10917,9 +10907,9 @@ dependencies = [
 
 [[package]]
 name = "surrealdb-core"
-version = "3.2.0"
+version = "3.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9ad0e632d0ba78dede6e1432ef902b3dac4d9ce7999dc413b6d12e942db57f57"
+checksum = "5b53c9b93225512d71d89afb6768f41ecd36bcbd2123cc6c45d501d82c120729"
 dependencies = [
  "addr",
  "ahash 0.8.12",
@@ -11020,7 +11010,7 @@ dependencies = [
  "flatbuffers",
  "futures",
  "geo",
- "prost 0.14.3",
+ "prost 0.14.4",
  "prost-types 0.14.3",
  "rust_decimal",
  "semver",
@@ -11033,9 +11023,9 @@ dependencies = [
 
 [[package]]
 name = "surrealdb-strand"
-version = "3.2.0"
+version = "3.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1a832fdd23c7cebe15b95c6940bf23e18360774307f939273e43c6a4d6722922"
+checksum = "d4e88bf98df390845b771d362490abcf11863dc4ccc4c563af77d285ff26186b"
 dependencies = [
  "revision",
  "serde",
@@ -11044,9 +11034,9 @@ dependencies = [
 
 [[package]]
 name = "surrealdb-types"
-version = "3.2.0"
+version = "3.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "191f11ad65f53f7a7b7cc65e2f455997bf9533a70bf9cfc509d58e4e061d300a"
+checksum = "19ebc0c8d5ccc33d8eb56010b6fd93931de9cdca2c6e2fd860e3f4c3c3e7bf49"
 dependencies = [
  "anyhow",
  "async-channel 2.5.0",
@@ -11075,9 +11065,9 @@ dependencies = [
 
 [[package]]
 name = "surrealdb-types-derive"
-version = "3.2.0"
+version = "3.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "428bbf94f264212f3ed2f807304fae5ac8e6cc7fa2fd73f026632a3639bf673b"
+checksum = "4bd6d0494d88f5aadd6ac7b0338661c324a9c21f118393d2d44579a29d4b53c1"
 dependencies = [
  "heck 0.4.1",
  "proc-macro2",
@@ -11777,7 +11767,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a55376a0bbaa4975a3f10d009ad763d8f4108f067c7c2e74f3001fb49778d309"
 dependencies = [
  "bytes",
- "prost 0.14.3",
+ "prost 0.14.4",
  "tonic 0.14.5",
 ]
 
@@ -11803,7 +11793,7 @@ version = "0.14.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2a875a902255423d34c1f20838ab374126db8eb41625b7947a1d54113b0b7399"
 dependencies = [
- "prost 0.14.3",
+ "prost 0.14.4",
  "prost-types 0.14.3",
  "tonic 0.14.5",
 ]
