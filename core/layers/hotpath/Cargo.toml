@@ -33,7 +33,7 @@ all-features = true
 
 [dependencies]
 futures = { workspace = true }
-hotpath = "0.22.0"
+hotpath = "0.23.2"
 http = { workspace = true }
 opendal-core = { path = "../../core", version = "0.58.2", default-features = false }
 
